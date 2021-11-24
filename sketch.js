@@ -190,7 +190,7 @@ function draw() {
   fill("white");
   strokeWeight(100);
   textSize(30);
-  text("Trash Collected : " +TC, DR.x + 450, DR.y - 250);
+  text("Trash Collected : " +TC +"/50", DR.x + 450, DR.y - 250);
   text("High Score: "+ localStorage["HighestScore"], DR.x-500,DR.y -250);
 
   textSize(80);
